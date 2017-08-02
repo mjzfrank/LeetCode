@@ -3,7 +3,7 @@ package com.company;
 /**
  * Created by wulvge on 2017/7/27.
  */
-// Int 倒数
+// Int 倒数   int x = 1569;
 public class LeetCode7 {
     public int reverse(int x) {
         long result = 0;

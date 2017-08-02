@@ -3,7 +3,7 @@ package com.company;
 /**
  * Created by wulvge on 2017/7/27.
  */
-//Longest Palindromic Substring  最长回文
+//Longest Palindromic Substring  最长回文        String s = "ccavccvassg";
 public class LeetCode5 {
     public String longestPalindrome(String s) {
         if(s == null || s.length()==0)

@@ -2,7 +2,7 @@ package com.company;
 
 /**
  * Created by wulvge on 2017/7/27.
- *///Container With Most Water      找出水桶最大容积
+ *///Container With Most Water      找出水桶最大容积  int[] height = new int[]{2,6,2,9};
 public class LeetCode11 {
     public int maxArea(int[] height) {
         if (height.length < 2) return 0;

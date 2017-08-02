@@ -6,7 +6,7 @@ import java.util.*;
 /**
  * Created by wulvge on 2017/7/28.
  */
-//3Sum == 0    3个数相加为0
+//3Sum == 0    3个数相加为0    int[] nums = new int[]{1,-1,-2,-5,1,3};
 public class LeetCode15 {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> IntegerResult = new ArrayList<>();

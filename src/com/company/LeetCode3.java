@@ -8,7 +8,7 @@ import java.util.HashSet;
  */
 
 public class LeetCode3 {
-    //Longest Substring Without Repeating Characters  最长的没有重复字母的String
+    //Longest Substring Without Repeating Characters  最长的没有重复字母的String  String s = "ABCDABCAA"
     public int lengthOfLongestSubstring(String s) {
         if (s == null || s.length() == 0)
             return 0;

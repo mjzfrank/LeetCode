@@ -10,7 +10,7 @@ package com.company;
 100~900: {"C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
 
 1000~3000: {"M", "MM", "MMM"}.*/
-//int转罗马
+//int转罗马   int num = 4294
 public class LeetCode12 {
     public String intToRoman(int num) {
         if(num<1 || num >3999) return "";

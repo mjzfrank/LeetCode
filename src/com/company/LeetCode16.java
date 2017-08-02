@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Created by wulvge on 2017/7/28.
  */
-//3Sum Closest   找出最接近target的数
+//3Sum Closest   找出3个数字相加最接近target的数      int[] nums = new int[]{1,-1,-2,-5,1,3}; int target = 3;
 public class LeetCode16 {
 //    public int threeSumClosest(int[] nums, int target) {
 //        int result = 0;

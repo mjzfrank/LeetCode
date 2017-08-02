@@ -3,7 +3,7 @@ package com.company;
 /**
  * Created by wulvge on 2017/7/27.
  */
-//罗马数字转int
+//罗马数字转int  String roman = "MXVI"
 public class LeetCode13 {
     public  int romanToInt(String roman){
         int stack = 0;

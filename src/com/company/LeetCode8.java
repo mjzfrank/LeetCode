@@ -3,7 +3,7 @@ package com.company;
 /**
  * Created by wulvge on 2017/7/27.
  */
-//String 转 int
+//String 转 int  String str = "214214";
 public class LeetCode8 {
     public int myAtoi(String str) {
         if (str == null || "".equals(str)) return 0;

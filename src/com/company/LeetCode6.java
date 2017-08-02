@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by wulvge on 2017/7/27.
  */
-//ZigZag Conversion  String Z型
+//ZigZag Conversion  String Z型         String s = "PAYPALISHIRING"; int numRows = 3;
 public class LeetCode6 {
     public String convert(String s, int numRows) {
         String[] rowStrings = new String[numRows];

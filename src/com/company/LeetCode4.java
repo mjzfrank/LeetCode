@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Created by wulvge on 2017/7/27.
  */
-// Median of Two Sorted Arrays  2个数组的中间数
+// Median of Two Sorted Arrays  2个数组的中间数      int[] a = new int[]{1,5,6}; int[] b = new int[]{2,3,4};
 public class LeetCode4 {
     public double findMedianSortedArrays(int A[], int B[]) {
         // IMPORTANT: Please reset any member data you declared, as

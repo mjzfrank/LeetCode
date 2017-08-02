@@ -3,7 +3,7 @@ package com.company;
 /**
  * Created by wulvge on 2017/7/27.
  */
-//找出所有字符串的最长公共前缀
+//找出所有字符串的最长公共前缀   String[] strs = new String[]{"abvd","abc","ab"};
 public class LeetCode14 {
     public String longestCommonPrefix(String[] strs) {
         if(strs.length == 0||strs == null)
