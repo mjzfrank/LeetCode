@@ -54,17 +54,14 @@ public class LeetCode16 {
         Arrays.sort(num);
         //ans初始化很重要 影响后面比较
         ans = num[0] + num[1] + num[2];
-
         //遍历
         for(int i = 0; i < ArrySize - 2; i++)
         {
             int j = i + 1;      //i后面的数
             int k = ArrySize - 1;       //倒着数
-
             while(j < k)
             {
                 sum = num[i] + num[j] + num[k];
-
                 if( Math.abs(target - ans) > Math.abs(target - sum))           //当前更小
                 {
                     ans = sum;
@@ -81,7 +78,6 @@ public class LeetCode16 {
                     j++;
             }
         }
-
         //遍历后计算出距离最近的ans
         return ans;
     }
