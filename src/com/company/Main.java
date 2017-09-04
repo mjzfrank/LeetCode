@@ -6,10 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        LeetCode18 leetCode18 = new LeetCode18();
+        LeetCode27 leetCode27 = new LeetCode27();
 
-        int[] s = {1,0,-1,0,-2,2};
         
-        System.out.println(leetCode18.fourSum(s,0));
+        System.out.println(leetCode27.removeElement(new int[]{3,2,3,4},2));
      }
 }
